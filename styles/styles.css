@@ -1,18 +1,18 @@
 body {
     font-family: 'Helvetica', 'Times New Roman', sans-serif;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .container {
     margin: auto;
     width: 800px;
-    height: 800px;
+    height: 500px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.200);
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
 }
 
 
@@ -24,6 +24,17 @@ body {
 
 img {
     width: 300px;
-    height: 200px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.200);
+    height: 300px;
+    border-radius: 150px;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    color: #000;
+    border-block-end: 1px solid rgb(255, 0,  0);
+}
+
+a:hover {
+    color:rgb(255, 0,  0);
 }
