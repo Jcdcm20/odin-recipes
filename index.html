@@ -4,17 +4,18 @@
         <meta charset="utf-8">
         <title>Odin Recipes</title>
         <link rel="stylesheet" href="./styles/styles.css">
+        <script src="./js/script.js"></script>
     </head>
     <body>
         <div class="container">
             <h1>Odin Recipes</h1>
             <div class="display">
-                <img src="./images/cheese-bread.jpeg" alt="image">
+                <img src="./images/cheese-bread.jpeg" alt="image" id="displayImg">
             </div>
             <div class="menu">
-                <a href="./recipes/lasagna.html">Lasagna</a>
-                <a href="./recipes/cheese-bread.html">Cheese Bread</a>
-                <a href="./recipes/coxinha.html">Coxinha</a>
+                <a href="./recipes/lasagna.html" onmouseover="changeImg('./images/lasagna.jpg', 'Lasagna')">Lasagna</a>
+                <a href="./recipes/cheese-bread.html" onmouseover="changeImg('./images/cheese-bread.jpeg', 'Cheese Bread')">Cheese Bread</a>
+                <a href="./recipes/coxinha.html" onmouseover="changeImg('./images/coxinha.jpeg', 'Coxinha')">Coxinha</a>
             </div>
         </div>
     </body>
