@@ -1,21 +1,38 @@
 <!DOCTYPE html>
-<html>
-    <head lang="en">
-        <meta charset="utf-8">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
         <title>Odin Recipes</title>
         <link rel="stylesheet" href="./styles/styles.css">
-        <script src="./js/script.js"></script>
     </head>
     <body>
-        <div class="container">
+        <div class="flex-container">
             <h1>Odin Recipes</h1>
-            <div class="display">
-                <img src="./images/cheese-bread.jpeg" alt="image" id="displayImg">
-            </div>
-            <div class="menu">
-                <a href="./recipes/lasagna.html" onmouseover="changeImg('./images/lasagna.jpg', 'Lasagna')">Lasagna</a>
-                <a href="./recipes/cheese-bread.html" onmouseover="changeImg('./images/cheese-bread.jpeg', 'Cheese Bread')">Cheese Bread</a>
-                <a href="./recipes/coxinha.html" onmouseover="changeImg('./images/coxinha.jpeg', 'Coxinha')">Coxinha</a>
+
+            <div class="recipes-container">
+                <a href="./recipes/lasagna.html">
+                    <div class="recipe">
+                        
+                            <img src="./images/lasagna.jpg" alt="Lasagna">
+                            <p>Lasagna</p>
+                    </div>
+                </a>
+                <a href="./recipes/cheese-bread.html">
+                    <div class="recipe">
+                        
+                            <img src="./images/cheese-bread.jpeg" alt="Cheese Bread">
+                            <p>Cheese Bread</p>
+                        
+                    </div>
+                </a>
+                <a href="./recipes/coxinha.html">
+                    <div class="recipe">
+                        
+                            <img src="./images/coxinha.jpeg" alt="Coxinha">
+                            <p>Coxinha</p>
+
+                    </div>
+                </a>
             </div>
         </div>
     </body>
