@@ -1,50 +1,38 @@
 body {
-    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+    margin: 0px;
+    padding: 0px;
     height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
-.flex-container {
+.container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 30%;
-    height: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
-.recipes-container {
+.card-container {
     display: flex;
-    justify-content: space-between;
-    margin: 50px;
-}
 
-.recipe {
-    height: 150px;
-    width: 100px;
-    border-radius: 10px;
-    padding: 5px;
-}
-
-.recipe:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
 }
 
 a {
-    color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
+    color: #000;
 }
 
-a:hover {
-    color: rgba(0, 0, 0, 1);
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.card img {
+    height: 300px;
+    width: 300px;
 }
